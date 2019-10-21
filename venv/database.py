@@ -26,9 +26,16 @@ def site_in_database():
     expected_tags = dict(get_expected_tags(SiteName.site_name).fetchall())
     if expected_tags == {}:
         print ('The site is not in database.')
-        exit(0)
+        exit(0)             
     else:
         return expected_tags
+    """try:
+            if expected_tags == {}:
+                raise Exception
+        except:
+            print('The site is not in database.')
+            SiteName.site_name = input('Enter the site which is in database:')
+            site_in_database()"""
 
 expected_tags = site_in_database()
 
