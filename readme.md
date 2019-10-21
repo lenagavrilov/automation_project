@@ -19,7 +19,8 @@ You will need to install a few modules: pyodbc, HTMLParser from html.parser, Url
 Counter from collections.
 
 Also, You will need to connect to database "automation" and edit your server settings in file "main",
-in "connection" variable, so the program will be able to compare actual data with expected data in automation table.
+in "connection" variable, so the program will be able to compare actual data with expected data in "automation" 
+database.
 
 In the end the program will give you results like this (for the site you entered):
 
@@ -31,10 +32,11 @@ script:   1 expected, found: 7
 
 
 ## Authors
-	.....
+	Lena Gavrilov
 ### Contributers
-	.....
+	Dina Freidenberg
 ## Acknowledgments
-	.....
+	Big thanks to Dina Freidenberg who was so great and patient with me while going over my code again and again, 
+	giving remarks and challenging me to use new features.
 
 
