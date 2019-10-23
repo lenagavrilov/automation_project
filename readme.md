@@ -34,7 +34,7 @@ script:   1 expected, found: 7
 ## Authors
 	Lena Gavrilov
 ### Contributers
-	Dina Freidenberg
+	Dina Freidenberg, https://github.com/dina304
 ## Acknowledgments
 	Big thanks to Dina Freidenberg who was so great and patient with me while going over my code again and again, 
 	giving remarks and challenging me to use new features.
